@@ -21,14 +21,14 @@ Let's start with a simple search listing all source types in the index `_interna
 index=_internal | top limit=0 sourcetype
 ```
 
-![All source types](/img/2020-11-02-using-lookups-as-token-input/2020-11-02 search 1.png)
+![All source types](/assets/img/2020-11-02-using-lookups-as-token-input/2020-11-02 search 1.png)
 
 Do the same but output only source types with a count greater than 1000.
 ```
 index=_internal | top limit=0 sourcetype | where count>1000
 ```
 
-![Count greater 1000 source types](/img/2020-11-02-using-lookups-as-token-input/2020-11-02 search 2.png)
+![Count greater 1000 source types](/assets/img/2020-11-02-using-lookups-as-token-input/2020-11-02 search 2.png)
 
 The 1000 is the part you want to be configurable. Hence create the following saved search:
 ```
