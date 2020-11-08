@@ -145,7 +145,7 @@ gtag: "UA-66922183-1"
 # --- Comments --- #
 
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
-#disqus: ""
+disqus: "dominik"
 
 # To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
 #fb_comment_id: ""
@@ -166,9 +166,9 @@ gtag: "UA-66922183-1"
 # If you want to use reCaptcha for staticman (optional for spam protection), then fill
 # in the "siteKey" and "secret" parameters below and also in `staticman.yml`.
 # See more details at https://staticman.net/
-staticman:
-  repository : "DominikBritz/dominikbritz.github.io" # GitHub username/repository eg. "daattali/beautiful-jekyll"
-  branch     : main # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
+#staticman:
+ # repository : "DominikBritz/dominikbritz.github.io" # GitHub username/repository eg. "daattali/beautiful-jekyll"
+  #branch     : main # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
  # endpoint   : # (optional) URL of your own deployment, with a trailing slash eg. https://<your-api>/v3/entry/github/ (will fallback to a public GitLab instance)
   #reCaptcha:
    # siteKey  : "6LeWwgwTAAAAAEJ3rKYeWsclVEj3l4IyqNVAM2Tg" # Use your own site key, you need to apply for one on Google
