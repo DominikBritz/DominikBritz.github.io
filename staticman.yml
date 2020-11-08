@@ -25,7 +25,7 @@ comments:
   #
   # Name of the branch being used. Must match the `branch` in the theme config
   # file.
-  branch: "master"   #  use "master" for user page or "gh-pages" for project pages
+  branch: "main"   #  use "master" for user page or "gh-pages" for project pages
 
   commitMessage: "New comment by {fields.name}"
 
@@ -51,7 +51,7 @@ comments:
   # Whether entries need to be approved before they are published to the main
   # branch. If set to `true`, a pull request will be created for your approval.
   # Otherwise, entries will be published to the main branch automatically.
-  moderation: false
+  moderation: true
 
   # Akismet spam detection.
   # akismet:
@@ -102,9 +102,9 @@ comments:
   # 2. Register your domain at https://www.google.com/recaptcha/ and choose reCAPTCHA V2
   # 3. Uncomment `siteKey` and `secret` and fill them in with your values
   reCaptcha:
-    enabled: false
-    #siteKey: ""
+    enabled: true
+    siteKey: "6LeWwgwTAAAAAEJ3rKYeWsclVEj3l4IyqNVAM2Tg"
     # ENCRYPT reCaptcha secret key using Staticman /encrypt endpoint
     # i.e. https://{STATICMAN API INSTANCE}/v3/encrypt/{your-site-secret}
     # For more information, visit https://staticman.net/docs/encryption
-    #secret: ""
+    secret: "k3G798BsQ8FMHZKHpHjtUH7eO8bfJjrotkcVOZKf6Zf9S1ZicCXWJl3EjEtvzERHXIfgbcUN0+vdsmg0CkShYDgtMcyQ84THj6NnNG/KFp92bl6Ls1FN+0jPzeQKAxd5XPS0FQxdlYx1iJa963Pbqk5XlLkMenbNoyok402Um9VEOkxm4iSx6cBcCe0jxfR239doX2nyaEPdSo6vWp4SMHldC45cNRuMKLpNsgpli/0fV45to3GKZcTJABirgKJzrp4fHxzyvcxyo3UzzrLD3V0c84o+ioS4LVFL0aauMfCfd2SyrDEQgPu8ASy+ec8Y9SS3TiudmL/VJAf9XWzUHQ=="
