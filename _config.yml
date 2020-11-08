@@ -170,9 +170,9 @@ staticman:
   repository : "DominikBritz/dominikbritz.github.io" # GitHub username/repository eg. "daattali/beautiful-jekyll"
   branch     : main # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
  # endpoint   : # (optional) URL of your own deployment, with a trailing slash eg. https://<your-api>/v3/entry/github/ (will fallback to a public GitLab instance)
-  reCaptcha:
-    siteKey  : "6LeWwgwTAAAAAEJ3rKYeWsclVEj3l4IyqNVAM2Tg" # Use your own site key, you need to apply for one on Google
-    secret   : "k3G798BsQ8FMHZKHpHjtUH7eO8bfJjrotkcVOZKf6Zf9S1ZicCXWJl3EjEtvzERHXIfgbcUN0+vdsmg0CkShYDgtMcyQ84THj6NnNG/KFp92bl6Ls1FN+0jPzeQKAxd5XPS0FQxdlYx1iJa963Pbqk5XlLkMenbNoyok402Um9VEOkxm4iSx6cBcCe0jxfR239doX2nyaEPdSo6vWp4SMHldC45cNRuMKLpNsgpli/0fV45to3GKZcTJABirgKJzrp4fHxzyvcxyo3UzzrLD3V0c84o+ioS4LVFL0aauMfCfd2SyrDEQgPu8ASy+ec8Y9SS3TiudmL/VJAf9XWzUHQ==" # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
+  #reCaptcha:
+   # siteKey  : "6LeWwgwTAAAAAEJ3rKYeWsclVEj3l4IyqNVAM2Tg" # Use your own site key, you need to apply for one on Google
+    #secret   : "k3G798BsQ8FMHZKHpHjtUH7eO8bfJjrotkcVOZKf6Zf9S1ZicCXWJl3EjEtvzERHXIfgbcUN0+vdsmg0CkShYDgtMcyQ84THj6NnNG/KFp92bl6Ls1FN+0jPzeQKAxd5XPS0FQxdlYx1iJa963Pbqk5XlLkMenbNoyok402Um9VEOkxm4iSx6cBcCe0jxfR239doX2nyaEPdSo6vWp4SMHldC45cNRuMKLpNsgpli/0fV45to3GKZcTJABirgKJzrp4fHxzyvcxyo3UzzrLD3V0c84o+ioS4LVFL0aauMfCfd2SyrDEQgPu8ASy+ec8Y9SS3TiudmL/VJAf9XWzUHQ==" # ENCRYPT your password by going to https://staticman3.herokuapp.com/v3/encrypt/<your-site-secret>
 
 # --- Misc --- #
 
