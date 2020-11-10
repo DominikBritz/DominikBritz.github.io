@@ -2,6 +2,7 @@
 layout: post
 title: Running Splunk Saved Searches Powered by Tokens From Lookups
 tags: [Splunk]
+thumbnail-img: /assets/img/2020-11-02-using-lookups-as-token-input/featured.jpg
 ---
 For a new feature in version 6.0 of uberAgent, we needed to run a few saved searches to do some calculations but let users modify input values.
 
