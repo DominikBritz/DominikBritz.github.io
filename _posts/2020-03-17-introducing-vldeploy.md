@@ -2,6 +2,7 @@
 layout: post
 title: Introducing vlDeploy - Deploy Applications With PowerShell
 tags: [PowerShell]
+thumbnail-img: /assets/img/2020-03-17-introducing-vldeploy/featured.png
 ---
 Managing applications on Windows in enterprises is complex and cumbersome. Admins are using a variety of tools to install, uninstall or reconfigure applications silently. The most popular tool is propably Microsoft's ConfigMgr.
 
