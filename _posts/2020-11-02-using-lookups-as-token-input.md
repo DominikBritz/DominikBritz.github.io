@@ -11,7 +11,7 @@ Our requirements in detail:
  2. Provide defaults for thresholds and weights but let users configure them. Users might make modifications once or twice, but not daily. So we needed something easy to understand but nothing too fancy.
  3. Only administrators should modify settings that should be valid for all users accessing a particular Splunk app. It needed to be configurable, but not for everyone. A poor man's access control, so to say.
 
-I explain below how we achieved that by using Splunk anywhere examples. That's probably easier to understand, and I don't have to explain every bit of uberAgent here :wink:
+I explain below how we achieved that by using Splunk anywhere examples. That's probably easier to understand, and I don't have to explain every bit of uberAgent here ;-)
 
 ## Saved Searches Accept Tokens
 That was not clear to me but saved searches accept tokens. That's awesome as it's the foundation of our solution to our requirements: we can run saved searches configured by tokens, and only Splunk users with access to the disk can change them. Poor man's access control achieved!
